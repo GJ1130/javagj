@@ -1,7 +1,8 @@
 
 public class Stu {
 	
-	//成員姓名
+	//成員姓名 隱式：作用域 全局變量
+	//string 的默認值是 null
 	String name;
 	//成員年齡
 	byte age;
