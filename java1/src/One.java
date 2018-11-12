@@ -18,12 +18,16 @@ public class One
 	}
 
 	public static void main(String[] args)
-	{  
-		
-		//多个构造函数构成了重载  同一个方法名不同的实现结果
+	{
+
+		// 多个构造函数构成了重载 同一个方法名不同的实现结果
 		One o1 = new One();
 
 		One o2 = new One("高");
+	}
+	//实例方法  不是构造方法 实例就是一个对象
+	int One(){
+		return 0;
 	}
 
 }
